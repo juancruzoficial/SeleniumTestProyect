@@ -41,7 +41,7 @@ public class test {
             oldStyleMenu.selectByValue("Credit");
 
         }
-        driver.findElement(By.linkText("Funds Transfer Received")).click();
+        driver.findElement(By.linkText("Funds Transfer Sent")).click();
         driver.findElement(By.linkText("Log Out")).click();
 
 
