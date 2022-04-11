@@ -26,7 +26,7 @@ public class test {
         driver.findElement(By.name("username")).sendKeys("john");
         driver.findElement(By.name("password")).sendKeys("demo");
         driver.findElement(By.cssSelector(".button:nth-child(1)")).click();
-        driver.findElement(By.linkText("12789")).click();
+        driver.findElement(By.linkText("13344")).click();
         driver.findElement(By.id("month")).click();
 
         ///Filtrar Activity period
